@@ -1,11 +1,10 @@
 {
   "name": "yawait",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yield a promise to await it.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony",
-    "prepublish": "cake build"
+    "test": "mocha --harmony"
   },
   "keywords": [
     "async",
@@ -17,13 +16,13 @@
     "node": "^0.12"
   },
   "devDependencies": {
+    "coffee-script": "^1",
     "mocha": "^2",
     "should": "^5",
     "should-promised": "^0.1"
   },
   "directories": {
-    "test": "test",
-    "prepublish": "cake build"
+    "test": "test"
   },
   "repository": {
     "type": "git",
