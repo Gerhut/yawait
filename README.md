@@ -1,4 +1,4 @@
-# yawait
+# yawait [![Build Status][TravisBadge]][TravisPage]
 Yield a promise to await it.
 
 ## Install
@@ -52,3 +52,7 @@ yawait(function* () {
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+
+
+[TravisPage]: https://travis-ci.org/Gerhut/yawait
+[TravisBadge]: https://travis-ci.org/Gerhut/yawait.svg?branch=master
