@@ -1,0 +1,23 @@
+{
+  "name": "yawait",
+  "version": "0.0.0",
+  "description": "Yield a promise to await it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "keywords": [
+    "async",
+    "promise"
+  ],
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^0.12"
+  },
+  "devDependencies": {
+    "mocha": "^2",
+    "should": "^5.0.1",
+    "should-promised": "^0.1.0"
+  }
+}
