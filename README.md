@@ -15,11 +15,11 @@ yawait(function* () {
   try {
     yield Promise.reject(Error('reason'))
   } catch(e) {
-    console.log(e.reason) // reason
+    console.log(e.message) // reason
   }
   return Promise.resolve('jump out')
 }).then(function (value) {
-  console.log(value) // jumpout
+  console.log(value) // jump out
 })
 ```
 
