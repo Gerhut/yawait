@@ -19,7 +19,7 @@
     "coffee-script": "^1",
     "mocha": "^2",
     "should": "^5",
-    "should-promised": "^0.1"
+    "should-promised": "^0.2"
   },
   "directories": {
     "test": "test"
