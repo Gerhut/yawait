@@ -1,4 +1,4 @@
-# yawait [![Build Status][TravisBadge]][TravisPage]
+# yawait [![Build Status][TravisBadge]][TravisPage] [![devDependency Status][DavidBadge]][DavidPage]
 Yield a promise to await it.
 
 ## Install
@@ -56,3 +56,5 @@ yawait(function* () {
 
 [TravisPage]: https://travis-ci.org/Gerhut/yawait
 [TravisBadge]: https://travis-ci.org/Gerhut/yawait.svg?branch=master
+[DavidPage]: https://david-dm.org/gerhut/yawait#info=devDependencies
+[DavidBadge]: https://david-dm.org/gerhut/yawait/dev-status.svg
