@@ -1,4 +1,5 @@
-# yawait [![Build Status][TravisBadge]][TravisPage] [![devDependency Status][DavidBadge]][DavidPage]
+# yawait [![Build Status][TravisBadge]][TravisPage] [![devDependency Status][DavidBadge]][DavidPage] [![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/yawait.svg)](https://greenkeeper.io/)
+
 Yield a promise to await it.
 
 ## Install
