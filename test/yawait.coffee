@@ -5,6 +5,7 @@ describe 'yawait', ->
     yawait ->
       (yield Promise.resolve 'value').should.exactly 'value'
       done()
+    return
 
   it 'should throw the reason when the promise yielded is rejected', (done) ->
     yawait ->
@@ -14,6 +15,7 @@ describe 'yawait', ->
       catch e
         e.should.have.property 'message', 'reason'
         done()
+    return
 
   it 'should return the promise returned in generator', ->
     Promise.all [
