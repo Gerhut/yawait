@@ -13,7 +13,7 @@
   "author": "George Chung <Gerhut@GMail.com>",
   "license": "MIT",
   "engines": {
-    "node": "^0.12"
+    "node": "10"
   },
   "devDependencies": {
     "coffee-script": "^1",
